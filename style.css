@@ -1,0 +1,71 @@
+/* PAS TOUCHE */
+/* PAS TOUCHE */
+/* PAS TOUCHE */
+
+:root {
+    --background: #2f3848;
+    --background2: #f05768;
+    --fontColor: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: var(--fontColor);
+    background-color: var(--background);
+}
+
+header, footer {
+    background-color: var(--background2);
+    padding: 0.5rem 1rem;
+}
+
+header {
+    border-bottom: 5px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1, footer {
+    text-align: center;
+}
+
+header ul, footer ul {
+    list-style: none;
+}
+
+header a, footer a {
+    color: var(--fontColor);
+}
+
+header img {
+    display: none;
+}
+
+section {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section img {
+    margin-bottom: 0.7rem;
+    border-radius: 20px;
+}
+
+section img:first-child {
+    display: none;
+}
+
+footer ul {
+    display: none;
+}
+
+footer a {
+    font-size: 3rem;
+}
+
+/* vous pouvez modifier en dessous de cette ligne */
+/* ----------------------------- */
